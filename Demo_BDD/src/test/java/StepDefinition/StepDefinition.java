@@ -23,6 +23,7 @@ public class StepDefinition {
 	    // Write code here that turns the phrase above into concrete actions
 		title=driver.getTitle();
 		System.out.println(title);
+		System.out.println("the title is"+title);
 	}
 
 	@Then("^Login should be successful$")
